@@ -6,8 +6,7 @@ services:
       APP_PORT: 3000
 
   web:
-    image: planning-myelogrammes:local
-    pull_policy: never
+    image: ghcr.io/asdggr/planning-myelogrammes:latest
     restart: on-failure
     environment:
       PORT: 3000
