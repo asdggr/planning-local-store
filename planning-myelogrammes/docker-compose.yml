@@ -8,6 +8,7 @@ services:
 
   web:
     image: planning-myelogrammes:local
+    pull_policy: never
     restart: on-failure
     environment:
       PORT: 3000
