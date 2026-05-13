@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: planning-myelogrammes
+name: Planning des Myélogrammes
+tagline: Planification privée des myélogrammes
+icon: icon.svg
+category: files
+version: "0.1.0"
+port: 3000
+description: >-
+  Application privée de planification des myélogrammes avec données centralisées
+  dans le volume persistant Umbrel.
+developer: Gustave Roussy
+website: https://www.gustaveroussy.fr
+submitter: Gustave Roussy
+repo: ""
+support: ""
+gallery: []
+releaseNotes: >-
+  Ajoute le serveur de persistance centralisé, la compatibilité mobile et le
+  packaging privé Umbrel.
+path: ""
+defaultUsername: ""
+defaultPassword: ""
